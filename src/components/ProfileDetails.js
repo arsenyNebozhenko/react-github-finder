@@ -2,13 +2,11 @@ import React from 'react';
 
 import companyIcon from './../assets/company.svg';
 import locationIcon from './../assets/location.svg';
-import emailIcon from './../assets/email.svg';
 
 const ProfileDetails = ({user}) => {
 	let details = [
 		{text: user.company, icon: companyIcon},
-		{text: user.location, icon: locationIcon},
-		{text: user.email, icon: emailIcon}
+		{text: user.location, icon: locationIcon}
 	]
 
 	details = details.filter(detail => detail.text)

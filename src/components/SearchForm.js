@@ -17,7 +17,7 @@ class SearchForm extends Component {
 			<section className="search-form">
 				<h1 className="search-form__title">Search Github Users</h1>
 				<div className="search-form__subtitle">Enter a username to fetch a user profile and repos</div>
-				<input type="text" className="search-form__input js-search-user" onChange={this.handleChange}/>
+				<input type="text" className="search-form__input" onChange={this.handleChange}/>
 			</section>
 		);
 	}

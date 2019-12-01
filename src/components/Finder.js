@@ -2,8 +2,6 @@ import React, { Component } from 'react';
 import SearchForm from './SearchForm';
 import Profile from './Profile';
 
-// import axios from 'axios';
-
 class Finder extends Component {
 	state = {
 		result: ''
